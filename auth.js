@@ -4,7 +4,7 @@ const jwt = require("jsonwebtoken")
 const bcrypt = require("bcryptjs")
 const {registerValidation, loginValidation} = require("./validate");
 const verify = require('./verifyToken')
-const roles  = require('./role')
+const roles  = require('./rout')
 
 
 user.post('/register', async (req,  res) => {
